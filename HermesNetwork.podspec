@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     This project aims to show how to write an isolated and testable networking layer in Swift. Original article can be found on danielemargutti.com as '
 How to write Networking Layer in Swift (Updated)'
   DESC
-  s.homepage     = "https://github.com/malcommac/HermesNetwork.git"
+  s.homepage     = "https://github.com/malcommac/HermesNetwork"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Daniele Margutti" => "hello@danielemargutti.com" }
   s.social_media_url   = ""
