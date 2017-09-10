@@ -1,8 +1,12 @@
 # HermesNetwork
 
-HermesNetwork is the concrete implementation of an isolated networking layer in Swift.
+HermesNetwork is the concrete implementation of an isolated/testable networking layer written in Swift.
+
+## Architecture Design
 
 Current version is based upon the network architecture design described in ["Network Layers in Swift (Updated)"](http://danielemargutti.com/2017/09/09/network-layers-in-swift-updated/) by Daniele Margutti.
+
+## Used Libraries
 
 While the theory behind this approach is independent from the tool used, in order to give a complete out-of-box approach I’ve used the following libraries:
 
@@ -18,11 +22,16 @@ If you like magic you can plug something like ObjectMapper (frankly I love to co
 You can install Swiftline using CocoaPods, carthage and Swift package manager
 
 ### CocoaPods
+
+```
 use_frameworks!
 pod 'HermesNetwork'
+```
 
 ### Carthage
+```
 github 'malcommac/HermesNetwork'
+```
 
 ### Swift Package Manager
 Add swiftline as dependency in your `Package.swift`
