@@ -1,11 +1,13 @@
 # HermesNetwork
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![CI Status](https://travis-ci.org/malcommac/HermesNetwork.svg)](https://travis-ci.org/malcommac/HermesNetwork) [![Version](https://img.shields.io/cocoapods/v/HermesNetwork.svg?style=flat)](http://cocoadocs.org/docsets/HermesNetwork) [![License](https://img.shields.io/cocoapods/l/HermesNetwork.svg?style=flat)](http://cocoadocs.org/docsets/HermesNetwork) [![Platform](https://img.shields.io/cocoapods/p/HermesNetwork.svg?style=flat)](http://cocoadocs.org/docsets/HermesNetwork)
+
 HermesNetwork is the concrete implementation of an isolated/testable networking layer written in Swift.
 
 ## Architecture Design
 
 Current version is based upon the network architecture design described in:
-[**"Network Layers in Swift (Updated)**"](http://danielemargutti.com/2017/09/09/network-layers-in-swift-updated/) by Daniele Margutti.
+[**"Network Layers in Swift (Updated)**"](http://danielemargutti.com/2017/09/09/network-layers-in-swift-updated/) written by me.
 
 ## Used Libraries
 
