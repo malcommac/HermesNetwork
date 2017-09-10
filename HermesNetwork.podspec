@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "HermesNetwork"
-  s.version      = "0.1"
-  s.summary      = ""
+  s.version      = "0.1.0"
+  s.summary      = "Concrete Implementation of Isolated/Tesable Network Layer in Swift"
   s.description  = <<-DESC
     How to write a stable and testable networking layer in Swift
   DESC
