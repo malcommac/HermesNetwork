@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/malcommac/HermesNetwork"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Daniele Margutti" => "hello@danielemargutti.com" }
-  spec.social_media_url = 'http://twitter.com/danielemargutti'
+  s.social_media_url = 'http://twitter.com/danielemargutti'
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.10"
   s.watchos.deployment_target = "2.0"
