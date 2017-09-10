@@ -3,7 +3,8 @@ Pod::Spec.new do |s|
   s.version      = "0.1.0"
   s.summary      = "Concrete Implementation of Isolated/Tesable Network Layer in Swift"
   s.description  = <<-DESC
-    How to write a stable and testable networking layer in Swift
+    This project aims to show how to write an isolated and testable networking layer in Swift. Original article can be found on danielemargutti.com as '
+How to write Networking Layer in Swift (Updated)'
   DESC
   s.homepage     = "https://github.com/malcommac/HermesNetwork.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -13,7 +14,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = "10.9"
   s.watchos.deployment_target = "2.0"
   s.tvos.deployment_target = "9.0"
-  s.source       = { :git => "https://github.com/malcommac/HermesNetwork.git.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/malcommac/HermesNetwork.git", :tag => s.version.to_s }
   s.source_files  = "Sources/**/*"
   s.frameworks  = "Foundation"
   s.dependency 'Alamofire'
