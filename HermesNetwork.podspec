@@ -1,15 +1,14 @@
 Pod::Spec.new do |s|
   s.name         = "HermesNetwork"
   s.version      = "0.1.0"
-  s.summary      = "Concrete Implementation of Isolated/Tesable Network Layer in Swift"
+  s.summary      = "Concrete Implementation of Isolated/Testable Network Layer in Swift"
   s.description  = <<-DESC
-    This project aims to show how to write an isolated and testable networking layer in Swift. Original article can be found on danielemargutti.com as '
-How to write Networking Layer in Swift (Updated)'
+    This project aims to show how to write an isolated and testable networking layer in Swift. Original article can be found in README file.'
   DESC
   s.homepage     = "https://github.com/malcommac/HermesNetwork"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Daniele Margutti" => "hello@danielemargutti.com" }
-  s.social_media_url   = ""
+  spec.social_media_url = 'http://twitter.com/danielemargutti'
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.10"
   s.watchos.deployment_target = "2.0"
