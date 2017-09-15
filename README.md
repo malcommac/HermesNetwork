@@ -20,7 +20,7 @@ Our networking layer uses [Hydra](https://github.com/malcommac/Hydra), that rece
 
 
 ## Installation
-You can install Swiftline using CocoaPods, carthage and Swift package manager
+You can install HermesNetwork using CocoaPods, Carthage, or Swift Package Manager
 
 ### CocoaPods
 
@@ -35,7 +35,7 @@ github 'malcommac/HermesNetwork'
 ```
 
 ### Swift Package Manager
-Add swiftline as dependency in your `Package.swift`
+Add HermesNetwork as dependency in your `Package.swift`
 
 ```
 import PackageDescription
