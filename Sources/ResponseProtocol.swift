@@ -168,7 +168,7 @@ public class Response: ResponseProtocol {
 	}
 	
 	private lazy var cachedJSON: JSON = {
-		return JSON(data: self.data ?? Data())
+		return try! JSON(data: self.data ?? Data())
 	}()
 	
 }
