@@ -159,7 +159,7 @@ public class Response: ResponseProtocol {
 	}
 	
 	public func toJSON() -> JSON {
-		return self.cachedJSON
+		return self.cachedJSON ?? JSON()
 	}
 	
 	public func toString(_ encoding: String.Encoding? = nil) -> String? {
@@ -167,8 +167,8 @@ public class Response: ResponseProtocol {
 		return String(data: d, encoding: encoding ?? .utf8)
 	}
 	
-	private lazy var cachedJSON: JSON = {
-		return JSON(data: self.data ?? Data())
+	private lazy var cachedJSON: JSON? = {
+		return try? JSON(data: self.data ?? Data())
 	}()
 	
 }
